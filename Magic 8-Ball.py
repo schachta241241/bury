@@ -3,14 +3,14 @@ import random
 def magic_8_ball():
     # Список возможных ответов от шара судьбы
     answers = [
-        "Да, конечно!",
-        "Вероятно, да",
-        "Непредсказуемо, спроси позже",
-        "Сложно сказать",
-        "Не стоит рассчитывать на это",
-        "Определённо, нет",
-        "Мой ответ - нет",
-        "Весьма сомнительно"
+        "Yes, definitely!",
+        "Most likely",
+        "Unpredictable, ask again later",
+        "Hard to say",
+        "Don't count on it",
+        "Definitely no",
+        "My sources say no",
+        "Very doubtful"
     ]
 
     # Запрос вопроса у пользователя
