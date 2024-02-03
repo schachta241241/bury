@@ -13,14 +13,15 @@ def magic_8_ball():
         "Very doubtful"
     ]
 
-    # Запрос вопроса у пользователя
-    question = input("Задайте ваш вопрос: ")
+# Asking the user for a question
+question = input("Ask your question: ")
 
-    # Получение случайного ответа из списка
-    answer = random.choice(answers)
+# Getting a random answer from the list
+answer = random.choice(answers)
 
-    # Вывод ответа
-    print(f"Шар судьбы говорит: {answer}")
+# Displaying the answer
+print(f"The magic 8-ball says: {answer}")
 
-# Запуск программы
+# Running the program
 magic_8_ball()
+
